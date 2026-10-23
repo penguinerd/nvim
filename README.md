@@ -1,12 +1,39 @@
-Keybinds
+# Nvim
+My nvim set up
 
->>> System
+## Dependencies
+- bootstrapped lazy.nvim
+- lsp-zero
+- none-ls, null-ls
+- mason
+- fugitive
+- nvim-tree
+- nvim ts autotag
+- telescope
+- treesitter
+- undotree
+- vimtex
+
+## Mason
+- clangd
+- eslint-lsp (eslint)
+- jdtls
+- lua-language-server (lua_ls)
+- markdown-oxide
+- pyright
+- rust_analyzer
+- tailwindcss-language-server (tailwindcss)
+- typescript-language-server (ts_ls)
+
+## Keybinds
+
+### System
 - Ctrl + y: system copy in nvim
 - Ctrl + Shift + c: copy in terminal
 - Ctrl + Shift + v: system paste
 - Ctrl + Shift + x: system cut
 
->>> Fuzzy Finder (telescope)
+### Fuzzy Finder (telescope)
 - <space>ff: find file
 - <space>gf: git files
 - <space>fp: find project (grep search)
@@ -15,14 +42,14 @@ Keybinds
 - :GF
 - :FP
 
->>> Vimtex
+### Vimtex
 - :VimtexInfo
 - :VimtexCompile
 - :VimtexView
 - :VimtexStop
 - :VimtexClean
 
->>> Nvim Tree
+### Nvim Tree
 - Ctrl + n: toggle file tree
 - Ctrl + w + w: cycle windows
 - Ctrl + w + h: switch from file to tree
@@ -38,5 +65,5 @@ Keybinds
 - H: toggle dotfile visibility
 - I: toggle gitignore-d visiblity
 
->>> Undotree
+### Undotree
 - F5 - open
